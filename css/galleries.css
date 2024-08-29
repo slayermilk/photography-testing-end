@@ -1,0 +1,24 @@
+main .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    max-width: 1400px;
+    margin: 5px auto;
+    padding: 20px 10px;
+    }
+    
+    .gallery img {
+    width: 100%;
+    max-width: 700px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    }
+    
+    .gallery::after {
+    content: "";
+    width: 850px;
+    }

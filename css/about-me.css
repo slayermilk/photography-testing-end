@@ -1,0 +1,33 @@
+.my-details {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto the next line if necessary */
+    align-items: flex-start; /* Aligns items to the top (left-aligns vertically) */
+    gap: 20px; /* Space between the image and text */
+    max-width: 1000px; /* Optional: Set a max-width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Optional: Add padding around the container */
+}
+
+.my-details img {
+    max-width: 100%; /* Ensure the image scales within its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border-radius: 10px; /* Optional: Adds rounded corners to the image */
+    flex: 1 1 300px; /* Allows the image to shrink/grow, with a minimum width */
+}
+
+.my-details p {
+    flex: 1 1 300px; /* Allows the text to shrink/grow, with a minimum width */
+    text-align: left; /* Left-align the text */
+    font-size: 1rem; /* Set a comfortable font size */
+    line-height: 1.6; /* Set a line height for better readability */
+    
+}
+
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
